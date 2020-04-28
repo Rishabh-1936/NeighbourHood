@@ -1,0 +1,119 @@
+<%- include ('partials/header') %>
+<style>
+    .goal #goal-image {
+        background-image: url('https://res.cloudinary.com/sanitarium/image/fetch/q_auto/https://www.sanitarium.com.au/getmedia%2Fae51f174-984f-4a70-ad3d-3f6b517b6da1%2Ffruits-vegetables-healthy-fats.jpg%3Fwidth%3D1180%26height%3D524%26ext%3D.jpg');
+        height: 346px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #goal-text {
+        background-color: #ffffffc7;
+        opacity: 0.60;
+        margin: auto;
+        padding: 10%;
+    }
+
+    .goal {
+        margin-bottom: 100px;
+    }
+
+    .card-1 {
+        border-radius: 28px;
+        background: linear-gradient(145deg, #f2f2f2, #cbcbcb);
+        box-shadow: 29px 29px 58px #888888,
+            -29px -29px 58px #ffffff;
+        height: 400px;
+        width: 500px;
+        margin: auto;
+    }
+
+    #signUp-login {
+        margin-top: 460px;
+        height: 200px;
+        margin: auto;
+        margin-top: 230px;
+        margin-bottom: 100px;
+        /* background-color: #dcdbdbba; */
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    .card .card-body {
+
+        height: 246px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+</style>
+
+<div id="signUp-login">
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Started as volunteer</h5>
+                    <p class="card-text">Helping your neighbour is helping yourself too. Get started by signing up as a
+                        volunteer.</p>
+                    <a href="/signUp/volunteer" class="btn btn-primary">Sign Up as Volunteer</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Request for help</h5>
+                    <p class="card-text">Request free meals, order your usual groceries, or ask for other help you may
+                        need. A volunteer will bring your delivery
+                        right to your door.</p>
+                    <a href="/request" class="btn btn-primary">Request Meal or Delivery</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Exchange Goods</h5>
+                    <p class="card-text">Exchange the things which you have in spare with some other stuff which helps
+                        other members of community</p>
+                    <a href="/barter" class="btn btn-primary">Exchange Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 
+<div id="l-signUp-login">
+    <div class="row">
+        <div class="col-6">
+            <div class="card-1">
+                <h1>SignUp</h1>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card-1"></div>
+        </div>
+    </div>
+</div> -->
+
+
+<div class="goal">
+    <h1 style="text-align: center;">What is our Goal</h1>
+    <div id="goal-image">
+        <div id="goal-text">
+            <h3>
+                Our goal is to prevent the spreading of the Virus locally is to empower the citizens with the right
+                information and taking
+                precautions as per the advisories being issued by Ministry of Health & Family Welfare.
+            </h3>
+        </div>
+    </div>
+</div>
+
+
+
+<%- include ('partials/footer') %>
