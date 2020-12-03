@@ -36,7 +36,9 @@ To run the application follow the following steps:
 <h2>Important Point</h2>
 <h2>For making request and adding item to barter an user need to be login as a non-volunteer</h2>
 
+<h1>Project Demo:</h1>
 
+[![Watch the video](https://notesfrompoland.com/wp-content/uploads/2020/04/covid-4948866_1920-1-1080x675.jpg)](https://youtu.be/LCLRsyUMG3o)
 
 
 
